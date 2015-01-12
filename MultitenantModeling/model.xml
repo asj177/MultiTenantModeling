@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+	<featureModel chosenLayoutAlgorithm="1">
+		<struct>
+			<alt abstract="true" mandatory="true" name="workFlow">
+				<and mandatory="true" name="task">
+					<feature abstract="true" mandatory="true" name="completionPercentage"/>
+					<feature abstract="true" mandatory="true" name="daysRequired"/>
+				</and>
+				<and mandatory="true" name="stories">
+					<feature abstract="true" mandatory="true" name="hoursLeft"/>
+					<feature abstract="true" mandatory="true" name="endDate"/>
+				</and>
+				<and mandatory="true" name="cards">
+					<feature abstract="true" mandatory="true" name="UpdateswimLanes"/>
+					<feature abstract="true" mandatory="true" name="cycleTime"/>
+				</and>
+			</alt>
+		</struct>
+		<constraints/>
+		<calculations Auto="true" Constraints="true" Features="true" Redundant="true" Tautology="true"/>
+		<comments/>
+		<featureOrder userDefined="false"/>
+	</featureModel>
